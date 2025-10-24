@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"github.com/namdang-fdp/go-ecommerce/internal/routers"
+)
 
 func main() {
-	fmt.Println("Start")
+	r := routers.NewRouter()
+	r.Run()
 }
