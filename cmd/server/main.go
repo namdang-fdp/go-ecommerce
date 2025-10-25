@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/namdang-fdp/go-ecommerce/internal/routers"
+	"github.com/namdang-fdp/go-ecommerce/internal/routes"
 )
 
 func main() {
